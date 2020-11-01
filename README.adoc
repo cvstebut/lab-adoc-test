@@ -1,0 +1,26 @@
+= Hello, AsciiDoc!
+Doc Writer <doc@example.com>
+
+An introduction to http://asciidoc.org[AsciiDoc].
+
+== First Section
+
+* item 1
+* item 2
+
+[source,ruby]
+puts "Hello, World!"
+
+[source,console]
+cat ~/.ci/ci/vault_environment
+
+[source,log]
+2020-11-01T12:16:03.960+0100    INFO    module/manager.go:83    registering action      {"component": "module-manager", "actionPath": "action.octant.dev/deleteObject", "module-name": "configuration"}
+2020-11-01T12:16:03.961+0100    INFO    plugin/manager.go:372   watching for new JavaScript plugins in ["C:\\Users\\cvs.INFRA\\AppData\\Local\\octant\\plugins"]
+2020-11-01T12:16:04.037+0100    INFO    plugin/manager.go:647   registered plugin "helm"        {"plugin-name": "octant-helm.exe", "cmd": "C:\\Users\\cvs.INFRA\\AppData\\Local\\octant\\plugins\\octant-helm.exe", "metadata": {"Name":"helm","Description":"Helm support (v3)","Capabilities":{"IsModule":true}}}
+2020-11-01T12:16:04.037+0100    INFO    plugin/manager.go:655   plugin supports navigation      {"plugin-name": "octant-helm.exe"}
+2020-11-01T12:16:04.117+0100    INFO    plugin/manager.go:634   registering plugin action       {"plugin-name": "octant-velero-plugin.exe", "action-path": "action.octant.dev/setNamespace"}
+2020-11-01T12:16:04.117+0100    INFO    plugin/manager.go:634   registering plugin action       {"plugin-name": "octant-velero-plugin.exe", "action-path": "velero.io/backupDelete"}
+2020-11-01T12:16:04.118+0100    INFO    plugin/manager.go:647   registered plugin "velero.io/octant-plugin"     {"plugin-name": "octant-velero-plugin.exe", "cmd": "C:\\Users\\cvs.INFRA\\AppData\\Local\\octant\\plugins\\octant-velero-plugin.exe", "metadata": {"Name":"velero.io/octant-plugin","Description":"Velero Dashboard Plugin","Capabilities":{"IsModule":true,"ActionNames":["action.octant.dev/setNamespace","velero.io/backupDelete"]}}}
+2020-11-01T12:16:04.118+0100    INFO    plugin/manager.go:655   plugin supports navigation      {"plugin-name": "octant-velero-plugin.exe"}
+2020-11-01T12:16:04.236+0100    INFO    dash/dash.go:596        using api service
